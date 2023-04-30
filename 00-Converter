@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Program{
+
+public static double convert(double inches){
+double feet = inches/12;
+return feet;
+}
+
+public static void main(Sting[] args) {
+Scanner sc = new Scanner(System.in);
+double inches = sc.nextDouble();
+double feet = convert(inches);
+System.out.println(feet);
+}
+}
